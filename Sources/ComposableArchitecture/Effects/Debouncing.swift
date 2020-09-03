@@ -1,5 +1,6 @@
 import Combine
 
+@available(iOS 13, *)
 extension Effect {
   /// Turns an effect into one that can be debounced.
   ///
